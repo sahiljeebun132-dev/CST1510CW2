@@ -4,10 +4,34 @@ schema.py
 Table creation / DDL (CW2 Video 03).
 
 All tables use CREATE TABLE IF NOT EXISTS so running this repeatedly is safe.
-Relationships are expressed with FOREIGN KEY constraints.
+Relationships are expressed with FOREIGN KEY constraints. A small column
+auto-migration keeps older databases compatible when new fields are added.
 """
 
 from . import users as users_model
+from . import events as events_model
+
+# Columns added after the original CSV schema (for the Update panel).
+TICKET_EXTRA_COLUMNS = {
+    "tracking_number": "TEXT",
+    "postcode": "TEXT",
+    "wrap_one": "TEXT",
+    "wrap_two": "TEXT",
+}
+
+
+def _ensure_columns(conn):
+    """Add any missing ticket columns to an existing database (no-op if present)."""
+    cur = conn.cursor()
+    cur.execute("PRAGMA table_info(tickets)")
+    existing = {row[1] for row in cur.fetchall()}
+    for col, coltype in TICKET_EXTRA_COLUMNS.items():
+        if col not in existing:
+            try:
+                cur.execute(f"ALTER TABLE tickets ADD COLUMN {col} {coltype}")
+            except Exception:
+                pass
+    conn.commit()
 
 
 def create_all_tables(conn):
@@ -53,6 +77,10 @@ def create_all_tables(conn):
             created_at         TEXT,
             updated_at         TEXT,
             resolved_at        TEXT,
+            tracking_number    TEXT,
+            postcode           TEXT,
+            wrap_one           TEXT,
+            wrap_two           TEXT,
             FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
         );
     """)
@@ -83,13 +111,17 @@ def create_all_tables(conn):
         );
     """)
 
+    # --- Ticket activity log (audit trail for the History panel) -----------
+    events_model.create_events_table(conn)
+
     conn.commit()
+    _ensure_columns(conn)
 
 
 def drop_all_tables(conn):
     """Utility for a clean re-seed during development."""
     cur = conn.cursor()
-    for t in ("conversations", "tickets", "canned_responses",
+    for t in ("ticket_events", "conversations", "tickets", "canned_responses",
               "customers", "users"):
         cur.execute(f"DROP TABLE IF EXISTS {t}")
     conn.commit()

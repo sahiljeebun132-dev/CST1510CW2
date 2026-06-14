@@ -1,5 +1,5 @@
 # CST1510 Coursework 2 — Technical Report
-## HelpHub: An Omnichannel Customer Service Platform
+## Relay: An Omnichannel Customer Service Platform
 
 **Student ID:** _[your ID]_  **Name:** _[your name]_  **Module:** CST1510
 
@@ -10,7 +10,7 @@
 
 ## 1. Introduction
 
-HelpHub is a secure, multi-channel customer-service platform built in Python.
+Relay is a secure, multi-channel customer-service platform built in Python.
 It is modelled on commercial contact-centre tools such as **Gnatta** (used by
 the retailer Footasylum), where support agents handle customer conversations
 from many channels — email, live chat, social media, phone and SMS — inside a

@@ -1,0 +1,47 @@
+"""
+events.py
+---------
+Lightweight per-ticket activity log (audit trail).
+
+Every meaningful action on a ticket — status change, reassignment, priority
+change, reply, internal note, CSAT — is recorded here so the conversation's
+"⋮ → History" panel can show a full timeline of how the ticket was handled.
+Parameterized queries throughout.
+"""
+
+from datetime import datetime
+import pandas as pd
+
+
+def create_events_table(conn):
+    conn.cursor().execute("""
+        CREATE TABLE IF NOT EXISTS ticket_events (
+            event_id   INTEGER PRIMARY KEY AUTOINCREMENT,
+            ticket_id  INTEGER,
+            event_type TEXT,
+            detail     TEXT,
+            actor      TEXT,
+            created_at TEXT,
+            FOREIGN KEY (ticket_id) REFERENCES tickets (ticket_id)
+        );
+    """)
+    conn.commit()
+
+
+def log_event(conn, ticket_id, event_type, detail, actor):
+    cur = conn.cursor()
+    cur.execute(
+        "INSERT INTO ticket_events (ticket_id, event_type, detail, actor, "
+        "created_at) VALUES (?, ?, ?, ?, ?)",
+        (ticket_id, event_type, detail, actor,
+         datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
+    )
+    conn.commit()
+    return cur.lastrowid
+
+
+def get_events(conn, ticket_id) -> pd.DataFrame:
+    return pd.read_sql(
+        "SELECT * FROM ticket_events WHERE ticket_id = ? "
+        "ORDER BY created_at ASC, event_id ASC",
+        conn, params=(ticket_id,))

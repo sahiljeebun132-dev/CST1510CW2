@@ -1,9 +1,9 @@
-# 🎧 HelpHub — Omnichannel Customer Service Platform
+# 💬 Relay — Omnichannel Customer Service Platform
 
 **CST1510 Coursework 2** · A Gnatta-style contact-centre built in Python with
 bcrypt, SQLite, pandas, Streamlit and an OpenAI-powered AI co-pilot.
 
-HelpHub gives support agents **one shared inbox** across email, live chat,
+Relay gives support agents **one shared inbox** across email, live chat,
 WhatsApp, Instagram, X, Facebook, phone and SMS — with a ticket queue, SLA
 timers, customer profiles, canned replies, an analytics dashboard and an AI
 assistant that answers questions about your live data.
@@ -80,6 +80,19 @@ You can also register a brand-new agent account from the **Register** tab.
 - Ask natural-language questions about your live data
 - Uses the **OpenAI API** when a key is configured, with a built-in
   **offline rule-based engine** as a fallback so it always works
+
+**Agent superpowers** (the things that make Relay genuinely fast to work in)
+- ✨ **AI draft replies** — one click writes a ready-to-send reply from the
+  conversation (OpenAI when configured, smart offline template otherwise)
+- 😊 **Live sentiment + tone coaching** — reads the customer's latest message,
+  shows their mood (and an ⚡ urgent flag) and tells the agent how to pitch the reply
+- ⚡ **One-click quick actions** — category-aware macros that send a templated
+  reply *and* update status/wrap in a single click
+- 📚 **Knowledge base** — searchable internal answers, insertable into a reply
+- ⚡ **Pick next** — jumps the agent straight to the most urgent open ticket
+  (priority + SLA aware)
+- 🏅 **My Performance** — personal scorecard (assigned, resolved, CSAT, SLA at
+  risk) plus a team leaderboard
 
 **Team Admin** (supervisors/admins)
 - Create agents, reset passwords, change roles, remove agents

@@ -1,4 +1,4 @@
-# Deploying HelpHub
+# Deploying Relay
 
 > **Why not Vercel?** Vercel runs short-lived *serverless* functions and can't
 > host a Streamlit app — Streamlit needs a long-running server holding an open

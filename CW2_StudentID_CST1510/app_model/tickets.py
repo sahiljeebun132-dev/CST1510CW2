@@ -20,6 +20,10 @@ CHANNELS = ["Email", "Live Chat", "WhatsApp", "Instagram DM", "X / Twitter",
             "Facebook", "Phone", "SMS"]
 SLA_BY_PRIORITY = {"Urgent": 2, "High": 4, "Medium": 12, "Low": 24}
 
+# Columns the Update panel is allowed to write (whitelist = injection-safe).
+UPDATABLE = {"priority", "order_ref", "tracking_number", "postcode",
+             "wrap_one", "wrap_two", "category", "assigned_agent", "csat_score"}
+
 
 # ------------------------------------------------------------------ READ ----
 def get_all_tickets(conn) -> pd.DataFrame:
@@ -125,11 +129,33 @@ def set_csat(conn, ticket_id, score):
     return cur.rowcount > 0
 
 
+def update_fields(conn, ticket_id, **fields):
+    """
+    Update an arbitrary set of whitelisted ticket columns (used by the Update
+    panel). Column names are checked against UPDATABLE so they can never be
+    user-controlled SQL; values are still bound with ? placeholders.
+    """
+    cols = [c for c in fields if c in UPDATABLE]
+    if not cols:
+        return False
+    set_clause = ", ".join(f"{c} = ?" for c in cols)
+    params = [fields[c] for c in cols] + [ticket_id]
+    cur = conn.cursor()
+    cur.execute(f"UPDATE tickets SET {set_clause}, updated_at = datetime('now') "
+                f"WHERE ticket_id = ?", params)
+    conn.commit()
+    return cur.rowcount > 0
+
+
 # ---------------------------------------------------------------- DELETE ----
 def delete_ticket(conn, ticket_id):
-    """Delete a ticket and all of its conversation messages (cascade)."""
+    """Delete a ticket and all of its messages + activity events (cascade)."""
     cur = conn.cursor()
     cur.execute("DELETE FROM conversations WHERE ticket_id = ?", (ticket_id,))
+    try:
+        cur.execute("DELETE FROM ticket_events WHERE ticket_id = ?", (ticket_id,))
+    except Exception:
+        pass
     cur.execute("DELETE FROM tickets WHERE ticket_id = ?", (ticket_id,))
     conn.commit()
     return cur.rowcount > 0
@@ -144,7 +170,6 @@ def stats(conn) -> dict:
     open_count = int(df["status"].isin(open_states).sum()) if total else 0
     resolved = int(df["status"].isin(("Resolved", "Closed")).sum()) if total else 0
 
-    # SLA breaches: open tickets whose sla_due_at is in the past
     breaches = 0
     if total:
         now = datetime.now()

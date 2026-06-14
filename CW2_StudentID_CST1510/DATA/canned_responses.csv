@@ -1,0 +1,13 @@
+canned_id,category,title,body
+1,Greeting,Welcome,"Hi {name}, thanks for getting in touch with HelpHub! I'm happy to help — could you share your order number so I can take a look?"
+2,Order Status,Order on the way,Good news {name}! Order {oid} has been dispatched and is on its way. You can track it with the link in your confirmation email. Anything else I can help with?
+3,Returns & Refunds,Refund timeline,Thanks {name}. Refunds are processed within 3-5 working days once your return reaches our warehouse. I can see yours is being processed now — you'll get an email when it's complete.
+4,Returns & Refunds,How to return,"No problem {name}! Just head to your account > Orders > Return, print the prepaid label, and drop it at any collection point. The {product} is fully eligible for return."
+5,Delivery Issue,Lost parcel,So sorry to hear that {name}. I've opened an investigation with the courier for order {oid}. We'll update you within 24 hours and sort a replacement or refund if it's confirmed lost.
+6,Sizing & Fit,Fit advice,"Great choice {name}! The {product} tends to run true to size, though some customers size up half a size for a roomier fit. Our size guide is on the product page if that helps."
+7,Faulty Item,Faulty replacement,"I'm really sorry the {product} arrived faulty, {name}. I've arranged a free replacement and a prepaid return label for the faulty one — no need to pay anything."
+8,Payment,Duplicate charge,"Thanks for flagging {name}. I can see a duplicate authorisation on order {oid} — I've released it, and it should drop off your statement within 3-5 working days."
+9,Account,Password reset,Let's get you back in {name}. I've triggered a fresh password reset — please check your inbox (and spam). The link is valid for 30 minutes.
+10,Promo / Discount,Discount fix,"Thanks {name}! Student discounts need a verified Student Beans account. Once verified, the code applies automatically at checkout. I've also added a one-time 10% code for you."
+11,Closing,Wrap up,"Glad I could help, {name}! Is there anything else I can do for you today? Thanks for choosing HelpHub. 👟"
+12,Complaint,Apology + escalate,I'm genuinely sorry for the experience {name}. I've escalated order {oid} to a senior agent as priority and added a goodwill voucher to your account. We'll make this right.

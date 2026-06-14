@@ -1,0 +1,4 @@
+bcrypt==5.0.0
+pandas>=2.0
+streamlit>=1.36
+openai>=1.40

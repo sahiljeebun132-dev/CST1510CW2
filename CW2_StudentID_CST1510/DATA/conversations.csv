@@ -1,0 +1,306 @@
+message_id,ticket_id,customer_id,channel,direction,sender,body,sent_at,is_internal_note
+1,1,28,Facebook,Inbound,Lola Khan,"My Nike Air Max 90 from order FA265984 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-06-06 21:36:15,0
+2,1,28,Facebook,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-06-07 06:11:15,0
+3,2,8,Instagram DM,Inbound,Ethan Begum,"My Asics Gel-1130 from order FA366667 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-05-15 17:17:15,0
+4,2,8,Instagram DM,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-16 00:55:15,0
+5,2,8,Instagram DM,Inbound,Ethan Begum,"Okay, thanks for looking into it.",2026-05-16 08:41:15,0
+6,2,8,Internal,Note,priya.nair,Customer is a VIP - handle with priority.,2026-05-16 08:57:15,1
+7,3,22,Email,Inbound,Maya Wright,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-13 15:54:15,0
+8,3,22,Email,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-06-14 01:28:15,0
+9,3,22,Email,Inbound,Maya Wright,Order number is FA578432.,2026-06-14 01:44:15,0
+10,4,9,Live Chat,Inbound,Maya Begum,"Hi, I placed order FA842573 on 5 days ago and it still hasn't shipped. Can you tell me what's happening?",2026-05-26 08:01:15,0
+11,4,9,Live Chat,Outbound,tom.becker,Could you confirm your order number please?,2026-05-26 15:34:15,0
+12,4,9,Live Chat,Inbound,Maya Begum,How long will that take?,2026-05-27 00:45:15,0
+13,4,9,Live Chat,Outbound,tom.becker,Sorry for the wait — sorting it right away.,2026-05-27 01:06:15,0
+14,5,33,Live Chat,Inbound,Jack Brown,Thinking of buying the Adidas Samba OG — do they run true to size or should I size up?,2026-05-22 11:54:15,0
+15,5,33,Live Chat,Outbound,tom.becker,I've escalated this and you'll hear back within 24h.,2026-05-22 19:49:15,0
+16,5,33,Live Chat,Inbound,Jack Brown,"Okay, thanks for looking into it.",2026-05-22 23:38:15,0
+17,5,33,Live Chat,Outbound,tom.becker,Thanks for getting in touch — I'm checking this now.,2026-05-23 03:18:15,0
+18,5,33,Internal,Note,tom.becker,Refund approved by supervisor.,2026-05-23 03:41:15,1
+19,6,33,SMS,Inbound,Jack Brown,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-06 08:53:15,0
+20,6,33,SMS,Outbound,priya.nair,Could you confirm your order number please?,2026-06-06 10:32:15,0
+21,6,33,SMS,Inbound,Jack Brown,That's still not resolved though.,2026-06-06 16:03:15,0
+22,6,33,SMS,Outbound,priya.nair,Could you confirm your order number please?,2026-06-06 18:12:15,0
+23,6,33,Internal,Note,priya.nair,"Possible repeat issue, see previous ticket.",2026-06-06 18:13:15,1
+24,7,25,WhatsApp,Inbound,Omar Reid,I think I've been charged twice for order FA834788. Can you check and refund the duplicate?,2026-05-21 23:10:15,0
+25,7,25,WhatsApp,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-05-22 08:49:15,0
+26,8,37,Phone,Inbound,Mia Wright,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-26 20:37:15,0
+27,8,37,Phone,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-27 02:45:15,0
+28,8,37,Phone,Inbound,Mia Wright,Appreciate the quick reply!,2026-05-27 10:38:15,0
+29,8,37,Phone,Outbound,sarah.lee,Sorry for the wait — sorting it right away.,2026-05-27 17:28:15,0
+30,8,37,Phone,Inbound,Mia Wright,How long will that take?,2026-05-27 20:24:15,0
+31,9,28,Instagram DM,Inbound,Lola Khan,I sent back the New Balance 550 from order FA978770 but I still haven't seen my refund. Please help.,2026-05-30 22:10:15,0
+32,9,28,Instagram DM,Outbound,james.okafor,Sorry for the wait — sorting it right away.,2026-05-31 01:32:15,0
+33,10,9,Instagram DM,Inbound,Maya Begum,Quick one — will the Nike Air Max 90 be restocked any time soon? Been waiting ages.,2026-06-10 03:51:15,0
+34,10,9,Instagram DM,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-06-10 12:45:15,0
+35,10,9,Instagram DM,Inbound,Maya Begum,That's still not resolved though.,2026-06-10 18:53:15,0
+36,10,9,Instagram DM,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-06-10 21:27:15,0
+37,10,9,Instagram DM,Inbound,Maya Begum,Appreciate the quick reply!,2026-06-11 04:53:15,0
+38,11,7,Instagram DM,Inbound,Leo Singh,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-31 10:16:15,0
+39,11,7,Instagram DM,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-31 14:20:15,0
+40,11,7,Instagram DM,Inbound,Leo Singh,"Okay, thanks for looking into it.",2026-05-31 21:21:15,0
+41,11,7,Instagram DM,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-06-01 05:10:15,0
+42,11,7,Instagram DM,Inbound,Leo Singh,That's still not resolved though.,2026-06-01 14:45:15,0
+43,12,35,Phone,Inbound,Liam Walsh,The tracking for FA491205 says delivered but I never got my Nike Air Max 90. I've checked with neighbours.,2026-05-31 04:28:15,0
+44,12,35,Phone,Outbound,tom.becker,I've escalated this and you'll hear back within 24h.,2026-05-31 11:35:15,0
+45,12,35,Phone,Inbound,Liam Walsh,That's still not resolved though.,2026-05-31 19:33:15,0
+46,13,20,SMS,Inbound,Tom Singh,"Hi, I placed order FA348808 on 6 days ago and it still hasn't shipped. Can you tell me what's happening?",2026-05-15 17:54:15,0
+47,13,20,SMS,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-05-15 18:58:15,0
+48,13,20,SMS,Inbound,Tom Singh,That's still not resolved though.,2026-05-16 02:00:15,0
+49,13,20,SMS,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-16 07:01:15,0
+50,14,29,X / Twitter,Inbound,Maya Brown,This is the third time I'm messaging about order FA999272 and nobody has replied. Really not good enough.,2026-05-26 16:06:15,0
+51,14,29,X / Twitter,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-26 20:06:15,0
+52,14,29,X / Twitter,Inbound,Maya Brown,That's still not resolved though.,2026-05-26 21:50:15,0
+53,14,29,X / Twitter,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-27 01:59:15,0
+54,14,29,X / Twitter,Inbound,Maya Brown,Appreciate the quick reply!,2026-05-27 05:59:15,0
+55,15,35,Live Chat,Inbound,Liam Walsh,My student discount code won't apply at checkout for the Stussy Tee. What am I doing wrong?,2026-06-04 06:47:15,0
+56,15,35,Live Chat,Outbound,admin,Could you confirm your order number please?,2026-06-04 15:35:15,0
+57,15,35,Live Chat,Inbound,Liam Walsh,Appreciate the quick reply!,2026-06-04 15:54:15,0
+58,15,35,Live Chat,Outbound,admin,"I've processed that for you, anything else?",2026-06-04 21:06:15,0
+59,15,35,Live Chat,Inbound,Liam Walsh,"Okay, thanks for looking into it.",2026-06-05 03:52:15,0
+60,16,3,Email,Inbound,Tom Ahmed,I sent back the Stussy Tee from order FA302350 but I still haven't seen my refund. Please help.,2026-06-05 21:32:15,0
+61,16,3,Email,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-06-05 22:23:15,0
+62,16,3,Email,Inbound,Tom Ahmed,That's still not resolved though.,2026-06-06 03:34:15,0
+63,16,3,Email,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-06-06 11:27:15,0
+64,16,3,Email,Inbound,Tom Ahmed,Appreciate the quick reply!,2026-06-06 16:37:15,0
+65,17,14,Live Chat,Inbound,Maya Jones,The tracking for FA519424 says delivered but I never got my Adidas Samba OG. I've checked with neighbours.,2026-06-12 15:16:15,0
+66,17,14,Live Chat,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-06-13 01:12:15,0
+67,17,14,Live Chat,Inbound,Maya Jones,How long will that take?,2026-06-13 01:34:15,0
+68,18,27,Live Chat,Inbound,Ella Nguyen,The tracking for FA761503 says delivered but I never got my Asics Gel-1130. I've checked with neighbours.,2026-05-16 13:45:15,0
+69,18,27,Live Chat,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-16 17:18:15,0
+70,18,27,Live Chat,Inbound,Ella Nguyen,"Okay, thanks for looking into it.",2026-05-16 22:03:15,0
+71,19,16,Email,Inbound,Jack Nguyen,"My Adidas Samba OG from order FA594289 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-05-29 18:58:15,0
+72,19,16,Email,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-29 23:08:15,0
+73,19,16,Internal,Note,priya.nair,Courier confirmed parcel lost in transit.,2026-05-29 23:09:15,1
+74,20,1,Instagram DM,Inbound,Ella Begum,My student discount code won't apply at checkout for the Jordan 1 Low. What am I doing wrong?,2026-06-08 07:18:15,0
+75,20,1,Instagram DM,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-06-08 12:30:15,0
+76,20,1,Instagram DM,Inbound,Ella Begum,That's still not resolved though.,2026-06-08 19:21:15,0
+77,20,1,Instagram DM,Outbound,admin,"I've processed that for you, anything else?",2026-06-09 04:38:15,0
+78,21,24,X / Twitter,Inbound,Mia Rossi,I sent back the Nike Tech Fleece Hoodie from order FA927726 but I still haven't seen my refund. Please help.,2026-05-14 13:47:15,0
+79,21,24,X / Twitter,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-14 14:51:15,0
+80,22,27,Email,Inbound,Ella Nguyen,I sent back the Asics Gel-1130 from order FA311406 but I still haven't seen my refund. Please help.,2026-06-09 05:37:15,0
+81,22,27,Email,Outbound,priya.nair,"I've processed that for you, anything else?",2026-06-09 12:13:15,0
+82,22,27,Email,Inbound,Ella Nguyen,How long will that take?,2026-06-09 19:49:15,0
+83,22,27,Internal,Note,priya.nair,"Possible repeat issue, see previous ticket.",2026-06-09 20:03:15,1
+84,23,24,WhatsApp,Inbound,Mia Rossi,This is the third time I'm messaging about order FA981886 and nobody has replied. Really not good enough.,2026-05-19 20:50:15,0
+85,23,24,WhatsApp,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-19 21:40:15,0
+86,24,40,Live Chat,Inbound,Kai Brown,My student discount code won't apply at checkout for the Adidas Gazelle. What am I doing wrong?,2026-05-22 09:02:15,0
+87,24,40,Live Chat,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-22 12:15:15,0
+88,24,40,Live Chat,Inbound,Kai Brown,Order number is FA644037.,2026-05-22 21:18:15,0
+89,24,40,Live Chat,Outbound,james.okafor,Thanks for getting in touch — I'm checking this now.,2026-05-23 06:37:15,0
+90,24,40,Live Chat,Inbound,Kai Brown,Appreciate the quick reply!,2026-05-23 13:44:15,0
+91,25,2,X / Twitter,Inbound,Priya Murphy,The tracking for FA933914 says delivered but I never got my Nike Air Max 90. I've checked with neighbours.,2026-06-12 08:22:15,0
+92,25,2,X / Twitter,Outbound,tom.becker,Could you confirm your order number please?,2026-06-12 09:17:15,0
+93,25,2,Internal,Note,tom.becker,Refund approved by supervisor.,2026-06-12 09:31:15,1
+94,26,15,Live Chat,Inbound,Amara Foster,The tracking for FA283283 says delivered but I never got my The North Face Puffer. I've checked with neighbours.,2026-05-14 05:55:15,0
+95,26,15,Live Chat,Outbound,tom.becker,Sorry for the wait — sorting it right away.,2026-05-14 08:09:15,0
+96,27,7,Email,Inbound,Leo Singh,Thinking of buying the Carhartt Beanie — do they run true to size or should I size up?,2026-05-18 02:27:15,0
+97,27,7,Email,Outbound,admin,Sorry for the wait — sorting it right away.,2026-05-18 08:45:15,0
+98,27,7,Email,Inbound,Leo Singh,"Okay, thanks for looking into it.",2026-05-18 10:52:15,0
+99,27,7,Email,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-05-18 11:10:15,0
+100,27,7,Email,Inbound,Leo Singh,That's still not resolved though.,2026-05-18 20:50:15,0
+101,27,7,Internal,Note,admin,Customer is a VIP - handle with priority.,2026-05-18 21:00:15,1
+102,28,27,Email,Inbound,Ella Nguyen,I sent back the Carhartt Beanie from order FA382347 but I still haven't seen my refund. Please help.,2026-05-25 18:26:15,0
+103,28,27,Email,Outbound,priya.nair,Could you confirm your order number please?,2026-05-26 03:16:15,0
+104,28,27,Email,Inbound,Ella Nguyen,"Okay, thanks for looking into it.",2026-05-26 07:23:15,0
+105,28,27,Email,Outbound,priya.nair,Thanks for getting in touch — I'm checking this now.,2026-05-26 14:32:15,0
+106,28,27,Internal,Note,priya.nair,Refund approved by supervisor.,2026-05-26 14:58:15,1
+107,29,36,Instagram DM,Inbound,Noah Owusu,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-22 16:18:15,0
+108,29,36,Instagram DM,Outbound,sarah.lee,Sorry for the wait — sorting it right away.,2026-05-23 01:27:15,0
+109,29,36,Instagram DM,Inbound,Noah Owusu,Appreciate the quick reply!,2026-05-23 02:10:15,0
+110,29,36,Instagram DM,Outbound,sarah.lee,Sorry for the wait — sorting it right away.,2026-05-23 07:53:15,0
+111,30,14,WhatsApp,Inbound,Maya Jones,Thinking of buying the Stussy Tee — do they run true to size or should I size up?,2026-05-17 04:20:15,0
+112,30,14,WhatsApp,Outbound,priya.nair,Sorry for the wait — sorting it right away.,2026-05-17 10:42:15,0
+113,30,14,WhatsApp,Inbound,Maya Jones,That's still not resolved though.,2026-05-17 18:22:15,0
+114,30,14,WhatsApp,Outbound,priya.nair,I've escalated this and you'll hear back within 24h.,2026-05-17 19:46:15,0
+115,31,28,X / Twitter,Inbound,Lola Khan,My student discount code won't apply at checkout for the Asics Gel-1130. What am I doing wrong?,2026-05-17 12:58:15,0
+116,31,28,X / Twitter,Outbound,tom.becker,I've escalated this and you'll hear back within 24h.,2026-05-17 21:36:15,0
+117,31,28,X / Twitter,Inbound,Lola Khan,"Okay, thanks for looking into it.",2026-05-17 23:22:15,0
+118,31,28,Internal,Note,tom.becker,Customer is a VIP - handle with priority.,2026-05-17 23:41:15,1
+119,32,30,Email,Inbound,Priya Owusu,My student discount code won't apply at checkout for the The North Face Puffer. What am I doing wrong?,2026-05-22 10:25:15,0
+120,32,30,Email,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-22 15:56:15,0
+121,32,30,Internal,Note,priya.nair,Customer is a VIP - handle with priority.,2026-05-22 16:01:15,1
+122,33,10,SMS,Inbound,Lola Mensah,My student discount code won't apply at checkout for the Stussy Tee. What am I doing wrong?,2026-06-13 23:19:15,0
+123,33,10,SMS,Outbound,tom.becker,Could you confirm your order number please?,2026-06-14 03:38:15,0
+124,34,7,SMS,Inbound,Leo Singh,Thinking of buying the On Cloud 5 — do they run true to size or should I size up?,2026-05-20 04:20:15,0
+125,34,7,SMS,Outbound,admin,Thanks for getting in touch — I'm checking this now.,2026-05-20 05:51:15,0
+126,34,7,SMS,Inbound,Leo Singh,"Okay, thanks for looking into it.",2026-05-20 11:17:15,0
+127,35,6,Live Chat,Inbound,Reece Rossi,This is the third time I'm messaging about order FA666253 and nobody has replied. Really not good enough.,2026-05-19 18:20:15,0
+128,35,6,Live Chat,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-05-19 20:29:15,0
+129,35,6,Live Chat,Inbound,Reece Rossi,That's still not resolved though.,2026-05-20 00:36:15,0
+130,35,6,Internal,Note,sarah.lee,Refund approved by supervisor.,2026-05-20 00:56:15,1
+131,36,16,SMS,Inbound,Jack Nguyen,My student discount code won't apply at checkout for the New Balance 550. What am I doing wrong?,2026-05-30 13:58:15,0
+132,36,16,SMS,Outbound,tom.becker,Thanks for getting in touch — I'm checking this now.,2026-05-30 15:56:15,0
+133,37,7,Instagram DM,Inbound,Leo Singh,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-06 11:03:15,0
+134,37,7,Instagram DM,Outbound,james.okafor,Sorry for the wait — sorting it right away.,2026-06-06 17:32:15,0
+135,37,7,Instagram DM,Inbound,Leo Singh,Appreciate the quick reply!,2026-06-06 17:40:15,0
+136,38,33,Live Chat,Inbound,Jack Brown,Thinking of buying the On Cloud 5 — do they run true to size or should I size up?,2026-05-27 02:57:15,0
+137,38,33,Live Chat,Outbound,james.okafor,Thanks for getting in touch — I'm checking this now.,2026-05-27 06:59:15,0
+138,38,33,Live Chat,Inbound,Jack Brown,How long will that take?,2026-05-27 08:11:15,0
+139,38,33,Live Chat,Outbound,james.okafor,Sorry for the wait — sorting it right away.,2026-05-27 08:53:15,0
+140,39,9,Email,Inbound,Maya Begum,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-29 09:24:15,0
+141,39,9,Email,Outbound,tom.becker,Could you confirm your order number please?,2026-05-29 14:07:15,0
+142,39,9,Email,Inbound,Maya Begum,That's still not resolved though.,2026-05-29 23:08:15,0
+143,39,9,Internal,Note,tom.becker,"Possible repeat issue, see previous ticket.",2026-05-29 23:35:15,1
+144,40,24,Instagram DM,Inbound,Mia Rossi,"Hi, I placed order FA314553 on 8 days ago and it still hasn't shipped. Can you tell me what's happening?",2026-05-17 00:42:15,0
+145,40,24,Instagram DM,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-17 07:41:15,0
+146,40,24,Instagram DM,Inbound,Mia Rossi,Appreciate the quick reply!,2026-05-17 15:11:15,0
+147,40,24,Instagram DM,Outbound,priya.nair,Sorry for the wait — sorting it right away.,2026-05-17 23:38:15,0
+148,41,29,X / Twitter,Inbound,Maya Brown,I sent back the Stussy Tee from order FA924232 but I still haven't seen my refund. Please help.,2026-06-10 09:42:15,0
+149,41,29,X / Twitter,Outbound,tom.becker,I've escalated this and you'll hear back within 24h.,2026-06-10 15:53:15,0
+150,41,29,X / Twitter,Inbound,Maya Brown,Appreciate the quick reply!,2026-06-10 19:10:15,0
+151,41,29,X / Twitter,Outbound,tom.becker,Could you confirm your order number please?,2026-06-10 22:14:15,0
+152,41,29,Internal,Note,tom.becker,Customer is a VIP - handle with priority.,2026-06-10 22:37:15,1
+153,42,21,Facebook,Inbound,Leo Walsh,"Hi, I placed order FA933856 on 4 days ago and it still hasn't shipped. Can you tell me what's happening?",2026-05-29 16:53:15,0
+154,42,21,Facebook,Outbound,tom.becker,Thanks for getting in touch — I'm checking this now.,2026-05-29 21:03:15,0
+155,43,26,Email,Inbound,Dylan Singh,The tracking for FA462848 says delivered but I never got my The North Face Puffer. I've checked with neighbours.,2026-05-24 07:29:15,0
+156,43,26,Email,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-24 13:16:15,0
+157,43,26,Email,Inbound,Dylan Singh,"Okay, thanks for looking into it.",2026-05-24 17:54:15,0
+158,43,26,Email,Outbound,priya.nair,I've escalated this and you'll hear back within 24h.,2026-05-25 02:48:15,0
+159,43,26,Internal,Note,priya.nair,Customer is a VIP - handle with priority.,2026-05-25 03:07:15,1
+160,44,10,Email,Inbound,Lola Mensah,I sent back the Asics Gel-1130 from order FA428822 but I still haven't seen my refund. Please help.,2026-05-25 16:22:15,0
+161,44,10,Email,Outbound,admin,Could you confirm your order number please?,2026-05-25 21:23:15,0
+162,44,10,Email,Inbound,Lola Mensah,Appreciate the quick reply!,2026-05-26 00:03:15,0
+163,44,10,Email,Outbound,admin,"I've processed that for you, anything else?",2026-05-26 06:38:15,0
+164,44,10,Email,Inbound,Lola Mensah,Appreciate the quick reply!,2026-05-26 11:00:15,0
+165,45,35,SMS,Inbound,Liam Walsh,Quick one — will the The North Face Puffer be restocked any time soon? Been waiting ages.,2026-06-09 09:50:15,0
+166,45,35,SMS,Outbound,admin,Thanks for getting in touch — I'm checking this now.,2026-06-09 10:15:15,0
+167,45,35,SMS,Inbound,Liam Walsh,Order number is FA386434.,2026-06-09 19:52:15,0
+168,45,35,SMS,Outbound,admin,Sorry for the wait — sorting it right away.,2026-06-09 20:54:15,0
+169,46,34,Live Chat,Inbound,Jack Walsh,Quick one — will the Nike Tech Fleece Hoodie be restocked any time soon? Been waiting ages.,2026-05-22 14:03:15,0
+170,46,34,Live Chat,Outbound,priya.nair,I've escalated this and you'll hear back within 24h.,2026-05-22 20:38:15,0
+171,46,34,Live Chat,Inbound,Jack Walsh,How long will that take?,2026-05-23 00:26:15,0
+172,46,34,Live Chat,Outbound,priya.nair,Sorry for the wait — sorting it right away.,2026-05-23 03:49:15,0
+173,46,34,Live Chat,Inbound,Jack Walsh,"Okay, thanks for looking into it.",2026-05-23 05:47:15,0
+174,47,11,X / Twitter,Inbound,Amara Jones,This is the third time I'm messaging about order FA114159 and nobody has replied. Really not good enough.,2026-06-08 21:14:15,0
+175,47,11,X / Twitter,Outbound,admin,Sorry for the wait — sorting it right away.,2026-06-09 06:56:15,0
+176,47,11,X / Twitter,Inbound,Amara Jones,"Okay, thanks for looking into it.",2026-06-09 15:02:15,0
+177,47,11,X / Twitter,Outbound,admin,"I've processed that for you, anything else?",2026-06-09 16:16:15,0
+178,47,11,Internal,Note,admin,Courier confirmed parcel lost in transit.,2026-06-09 16:41:15,1
+179,48,21,Live Chat,Inbound,Leo Walsh,My student discount code won't apply at checkout for the Nike Air Max 90. What am I doing wrong?,2026-05-21 08:40:15,0
+180,48,21,Live Chat,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-21 10:48:15,0
+181,48,21,Live Chat,Inbound,Leo Walsh,That's still not resolved though.,2026-05-21 11:29:15,0
+182,48,21,Live Chat,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-21 14:20:15,0
+183,49,3,Email,Inbound,Tom Ahmed,The tracking for FA603769 says delivered but I never got my Puma Suede Classic. I've checked with neighbours.,2026-06-03 08:33:15,0
+184,49,3,Email,Outbound,priya.nair,Thanks for getting in touch — I'm checking this now.,2026-06-03 14:40:15,0
+185,49,3,Email,Inbound,Tom Ahmed,Order number is FA603769.,2026-06-03 21:36:15,0
+186,49,3,Email,Outbound,priya.nair,Sorry for the wait — sorting it right away.,2026-06-04 01:45:15,0
+187,49,3,Email,Inbound,Tom Ahmed,Order number is FA603769.,2026-06-04 11:07:15,0
+188,50,20,Live Chat,Inbound,Tom Singh,Quick one — will the Nike Air Max 90 be restocked any time soon? Been waiting ages.,2026-05-27 21:46:15,0
+189,50,20,Live Chat,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-05-28 00:02:15,0
+190,50,20,Live Chat,Inbound,Tom Singh,"Okay, thanks for looking into it.",2026-05-28 06:11:15,0
+191,50,20,Live Chat,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-05-28 16:00:15,0
+192,50,20,Live Chat,Inbound,Tom Singh,"Okay, thanks for looking into it.",2026-05-28 18:05:15,0
+193,50,20,Internal,Note,admin,"Possible repeat issue, see previous ticket.",2026-05-28 18:19:15,1
+194,51,37,Live Chat,Inbound,Mia Wright,I sent back the Adidas Gazelle from order FA907949 but I still haven't seen my refund. Please help.,2026-05-27 01:46:15,0
+195,51,37,Live Chat,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-27 05:29:15,0
+196,51,37,Live Chat,Inbound,Mia Wright,"Okay, thanks for looking into it.",2026-05-27 13:50:15,0
+197,51,37,Live Chat,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-05-27 22:13:15,0
+198,51,37,Live Chat,Inbound,Mia Wright,Appreciate the quick reply!,2026-05-28 01:45:15,0
+199,51,37,Internal,Note,sarah.lee,"Possible repeat issue, see previous ticket.",2026-05-28 02:04:15,1
+200,52,15,Live Chat,Inbound,Amara Foster,I think I've been charged twice for order FA128521. Can you check and refund the duplicate?,2026-05-29 04:47:15,0
+201,52,15,Live Chat,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-05-29 07:35:15,0
+202,52,15,Live Chat,Inbound,Amara Foster,Appreciate the quick reply!,2026-05-29 12:29:15,0
+203,52,15,Live Chat,Outbound,sarah.lee,"I've processed that for you, anything else?",2026-05-29 13:30:15,0
+204,52,15,Live Chat,Inbound,Amara Foster,Appreciate the quick reply!,2026-05-29 22:39:15,0
+205,53,12,Live Chat,Inbound,Ella Mensah,Quick one — will the New Balance 550 be restocked any time soon? Been waiting ages.,2026-06-02 04:55:15,0
+206,53,12,Live Chat,Outbound,priya.nair,Could you confirm your order number please?,2026-06-02 07:46:15,0
+207,53,12,Live Chat,Inbound,Ella Mensah,Appreciate the quick reply!,2026-06-02 11:43:15,0
+208,53,12,Live Chat,Outbound,priya.nair,Sorry for the wait — sorting it right away.,2026-06-02 21:03:15,0
+209,53,12,Live Chat,Inbound,Ella Mensah,Order number is FA901562.,2026-06-03 00:08:15,0
+210,54,23,Phone,Inbound,Omar Begum,The tracking for FA872365 says delivered but I never got my The North Face Puffer. I've checked with neighbours.,2026-05-14 16:21:15,0
+211,54,23,Phone,Outbound,priya.nair,Could you confirm your order number please?,2026-05-14 21:24:15,0
+212,55,14,Email,Inbound,Maya Jones,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-12 16:25:15,0
+213,55,14,Email,Outbound,tom.becker,I've escalated this and you'll hear back within 24h.,2026-06-12 18:27:15,0
+214,56,21,Email,Inbound,Leo Walsh,"My Carhartt Beanie from order FA441508 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-06-02 21:35:15,0
+215,56,21,Email,Outbound,priya.nair,Could you confirm your order number please?,2026-06-03 03:31:15,0
+216,57,37,Email,Inbound,Mia Wright,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-10 04:03:15,0
+217,57,37,Email,Outbound,sarah.lee,Thanks for getting in touch — I'm checking this now.,2026-06-10 11:09:15,0
+218,58,16,Email,Inbound,Jack Nguyen,Thinking of buying the The North Face Puffer — do they run true to size or should I size up?,2026-06-08 01:18:15,0
+219,58,16,Email,Outbound,james.okafor,Thanks for getting in touch — I'm checking this now.,2026-06-08 07:59:15,0
+220,58,16,Email,Inbound,Jack Nguyen,"Okay, thanks for looking into it.",2026-06-08 10:27:15,0
+221,58,16,Internal,Note,james.okafor,Courier confirmed parcel lost in transit.,2026-06-08 10:32:15,1
+222,59,33,Email,Inbound,Jack Brown,Quick one — will the On Cloud 5 be restocked any time soon? Been waiting ages.,2026-06-09 22:27:15,0
+223,59,33,Email,Outbound,tom.becker,Sorry for the wait — sorting it right away.,2026-06-10 01:58:15,0
+224,59,33,Email,Inbound,Jack Brown,That's still not resolved though.,2026-06-10 08:19:15,0
+225,59,33,Internal,Note,tom.becker,Refund approved by supervisor.,2026-06-10 08:43:15,1
+226,60,16,Email,Inbound,Jack Nguyen,"My Puma Suede Classic from order FA408308 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-05-21 00:05:15,0
+227,60,16,Email,Outbound,tom.becker,Sorry for the wait — sorting it right away.,2026-05-21 09:44:15,0
+228,61,32,Email,Inbound,Ella Brown,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-19 06:29:15,0
+229,61,32,Email,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-05-19 10:47:15,0
+230,61,32,Email,Inbound,Ella Brown,Appreciate the quick reply!,2026-05-19 16:15:15,0
+231,61,32,Email,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-19 20:21:15,0
+232,61,32,Internal,Note,james.okafor,Customer is a VIP - handle with priority.,2026-05-19 20:23:15,1
+233,62,21,X / Twitter,Inbound,Leo Walsh,Quick one — will the The North Face Puffer be restocked any time soon? Been waiting ages.,2026-05-26 08:01:15,0
+234,62,21,X / Twitter,Outbound,admin,Thanks for getting in touch — I'm checking this now.,2026-05-26 16:20:15,0
+235,62,21,X / Twitter,Inbound,Leo Walsh,Appreciate the quick reply!,2026-05-26 19:51:15,0
+236,62,21,Internal,Note,admin,Refund approved by supervisor.,2026-05-26 19:57:15,1
+237,63,35,Live Chat,Inbound,Liam Walsh,Thinking of buying the New Balance 550 — do they run true to size or should I size up?,2026-05-27 02:12:15,0
+238,63,35,Live Chat,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-27 07:22:15,0
+239,63,35,Live Chat,Inbound,Liam Walsh,How long will that take?,2026-05-27 14:55:15,0
+240,63,35,Internal,Note,priya.nair,Courier confirmed parcel lost in transit.,2026-05-27 15:02:15,1
+241,64,21,Live Chat,Inbound,Leo Walsh,I think I've been charged twice for order FA156537. Can you check and refund the duplicate?,2026-06-04 03:09:15,0
+242,64,21,Live Chat,Outbound,tom.becker,"I've processed that for you, anything else?",2026-06-04 10:54:15,0
+243,64,21,Live Chat,Inbound,Leo Walsh,Order number is FA156537.,2026-06-04 13:58:15,0
+244,65,31,Live Chat,Inbound,Finn Smith,The tracking for FA158237 says delivered but I never got my Stussy Tee. I've checked with neighbours.,2026-06-03 10:26:15,0
+245,65,31,Live Chat,Outbound,priya.nair,Thanks for getting in touch — I'm checking this now.,2026-06-03 20:03:15,0
+246,65,31,Live Chat,Inbound,Finn Smith,Order number is FA158237.,2026-06-03 23:02:15,0
+247,65,31,Internal,Note,priya.nair,Refund approved by supervisor.,2026-06-03 23:23:15,1
+248,66,22,Live Chat,Inbound,Maya Wright,Thinking of buying the Puma Suede Classic — do they run true to size or should I size up?,2026-05-16 12:06:15,0
+249,66,22,Live Chat,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-16 18:52:15,0
+250,66,22,Live Chat,Inbound,Maya Wright,"Okay, thanks for looking into it.",2026-05-17 03:11:15,0
+251,66,22,Live Chat,Outbound,sarah.lee,I've escalated this and you'll hear back within 24h.,2026-05-17 07:42:15,0
+252,67,3,Instagram DM,Inbound,Tom Ahmed,"My Carhartt Beanie from order FA857725 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-05-22 20:36:15,0
+253,67,3,Instagram DM,Outbound,priya.nair,I've escalated this and you'll hear back within 24h.,2026-05-22 21:53:15,0
+254,68,26,Instagram DM,Inbound,Dylan Singh,This is the third time I'm messaging about order FA652500 and nobody has replied. Really not good enough.,2026-06-09 21:45:15,0
+255,68,26,Instagram DM,Outbound,james.okafor,Could you confirm your order number please?,2026-06-10 07:42:15,0
+256,68,26,Instagram DM,Inbound,Dylan Singh,That's still not resolved though.,2026-06-10 12:24:15,0
+257,68,26,Instagram DM,Outbound,james.okafor,"I've processed that for you, anything else?",2026-06-10 20:23:15,0
+258,68,26,Instagram DM,Inbound,Dylan Singh,How long will that take?,2026-06-11 01:16:15,0
+259,69,29,Phone,Inbound,Maya Brown,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-19 11:00:15,0
+260,69,29,Phone,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-05-19 11:40:15,0
+261,69,29,Phone,Inbound,Maya Brown,Appreciate the quick reply!,2026-05-19 15:33:15,0
+262,69,29,Phone,Outbound,admin,Could you confirm your order number please?,2026-05-19 20:39:15,0
+263,69,29,Phone,Inbound,Maya Brown,How long will that take?,2026-05-20 03:20:15,0
+264,70,11,Phone,Inbound,Amara Jones,"Hi, I placed order FA678732 on 9 days ago and it still hasn't shipped. Can you tell me what's happening?",2026-06-02 04:43:15,0
+265,70,11,Phone,Outbound,sarah.lee,Sorry for the wait — sorting it right away.,2026-06-02 12:06:15,0
+266,70,11,Phone,Inbound,Amara Jones,Order number is FA678732.,2026-06-02 14:04:15,0
+267,71,25,Live Chat,Inbound,Omar Reid,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-15 14:26:15,0
+268,71,25,Live Chat,Outbound,tom.becker,"I've processed that for you, anything else?",2026-05-15 23:34:15,0
+269,71,25,Live Chat,Inbound,Omar Reid,How long will that take?,2026-05-16 09:14:15,0
+270,71,25,Live Chat,Outbound,tom.becker,Could you confirm your order number please?,2026-05-16 11:08:15,0
+271,72,7,X / Twitter,Inbound,Leo Singh,Quick one — will the Carhartt Beanie be restocked any time soon? Been waiting ages.,2026-06-09 16:18:15,0
+272,72,7,X / Twitter,Outbound,admin,Could you confirm your order number please?,2026-06-10 02:14:15,0
+273,72,7,X / Twitter,Inbound,Leo Singh,Appreciate the quick reply!,2026-06-10 10:22:15,0
+274,72,7,X / Twitter,Outbound,admin,I've escalated this and you'll hear back within 24h.,2026-06-10 18:25:15,0
+275,72,7,X / Twitter,Inbound,Leo Singh,How long will that take?,2026-06-11 03:25:15,0
+276,72,7,Internal,Note,admin,Customer is a VIP - handle with priority.,2026-06-11 03:40:15,1
+277,73,13,Live Chat,Inbound,Aisha Wright,Quick one — will the New Balance 550 be restocked any time soon? Been waiting ages.,2026-06-04 23:26:15,0
+278,73,13,Live Chat,Outbound,james.okafor,Sorry for the wait — sorting it right away.,2026-06-05 01:55:15,0
+279,73,13,Internal,Note,james.okafor,Customer is a VIP - handle with priority.,2026-06-05 02:07:15,1
+280,74,5,Live Chat,Inbound,Maya Rossi,"My Nike Air Max 90 from order FA551320 arrived with a fault. Pretty annoyed, I'd like a replacement.",2026-06-07 03:50:15,0
+281,74,5,Live Chat,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-06-07 09:08:15,0
+282,74,5,Internal,Note,james.okafor,Courier confirmed parcel lost in transit.,2026-06-07 09:31:15,1
+283,75,1,X / Twitter,Inbound,Ella Begum,My student discount code won't apply at checkout for the Jordan 1 Low. What am I doing wrong?,2026-05-26 11:20:15,0
+284,75,1,X / Twitter,Outbound,priya.nair,"I've processed that for you, anything else?",2026-05-26 13:24:15,0
+285,75,1,X / Twitter,Inbound,Ella Begum,"Okay, thanks for looking into it.",2026-05-26 21:16:15,0
+286,76,38,Email,Inbound,Maya Singh,I think I've been charged twice for order FA352098. Can you check and refund the duplicate?,2026-05-17 19:00:15,0
+287,76,38,Email,Outbound,admin,Thanks for getting in touch — I'm checking this now.,2026-05-18 03:05:15,0
+288,76,38,Email,Inbound,Maya Singh,Appreciate the quick reply!,2026-05-18 06:04:15,0
+289,76,38,Email,Outbound,admin,"I've processed that for you, anything else?",2026-05-18 06:46:15,0
+290,77,12,Facebook,Inbound,Ella Mensah,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-05-23 15:20:15,0
+291,77,12,Facebook,Outbound,james.okafor,Sorry for the wait — sorting it right away.,2026-05-23 17:26:15,0
+292,77,12,Facebook,Inbound,Ella Mensah,How long will that take?,2026-05-24 00:53:15,0
+293,77,12,Facebook,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-24 09:43:15,0
+294,78,1,X / Twitter,Inbound,Ella Begum,My student discount code won't apply at checkout for the On Cloud 5. What am I doing wrong?,2026-05-19 04:41:15,0
+295,78,1,X / Twitter,Outbound,james.okafor,"I've processed that for you, anything else?",2026-05-19 05:49:15,0
+296,78,1,X / Twitter,Inbound,Ella Begum,Appreciate the quick reply!,2026-05-19 06:35:15,0
+297,78,1,X / Twitter,Outbound,james.okafor,Could you confirm your order number please?,2026-05-19 09:44:15,0
+298,78,1,X / Twitter,Inbound,Ella Begum,Order number is FA185253.,2026-05-19 14:33:15,0
+299,79,17,Facebook,Inbound,Tom Ahmed,I sent back the Adidas Gazelle from order FA192329 but I still haven't seen my refund. Please help.,2026-05-24 09:34:15,0
+300,79,17,Facebook,Outbound,tom.becker,Could you confirm your order number please?,2026-05-24 19:27:15,0
+301,79,17,Facebook,Inbound,Tom Ahmed,How long will that take?,2026-05-24 22:47:15,0
+302,79,17,Facebook,Outbound,tom.becker,Sorry for the wait — sorting it right away.,2026-05-25 06:51:15,0
+303,80,14,Email,Inbound,Maya Jones,I can't log into my account and the password reset email never arrives. Can you sort this out?,2026-06-07 03:53:15,0
+304,80,14,Email,Outbound,james.okafor,I've escalated this and you'll hear back within 24h.,2026-06-07 06:30:15,0
+305,80,14,Email,Inbound,Maya Jones,That's still not resolved though.,2026-06-07 11:29:15,0
